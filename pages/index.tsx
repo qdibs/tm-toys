@@ -136,9 +136,9 @@ const Home: NextPage = () => {
 
       {!address ? (
         <div>
-          <button className={styles.mainButton} onClick={connectWithMetamask}> Meta Mask</button>
-          <button className={styles.mainButton} onClick={connectWithCoinbaseWallet}> Coinbase Wallet</button>
-          <button className={styles.mainButton} onClick={connectWithWalletConnect}> Connect Wallet</button>
+          <button className={styles.mainButton2} onClick={connectWithMetamask}> Meta Mask</button>
+          <button className={styles.mainButton2} onClick={connectWithCoinbaseWallet}> Coinbase Wallet</button>
+          <button className={styles.mainButton2} onClick={connectWithWalletConnect}> Connect Wallet</button>
         </div>
       ) : (
         <>
